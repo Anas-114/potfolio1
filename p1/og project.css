@@ -1,0 +1,164 @@
+.content{
+    display: grid;
+    grid-template-columns:auto min-content min-content min-content min-content auto auto;
+    grid-template-rows: auto 200px 200px 200px 200px 200px 200px auto auto;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    
+ 
+    padding: 20px;
+    gap: 30px;
+    justify-items:end;
+}
+.item{
+   
+    padding: 20px;
+    font-size: 50px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    justify-content:center;
+    align-items:center;
+    
+ 
+}
+.main{
+    grid-row-start: 2;
+    grid-row-end: 8;
+    grid-column-start: 2;
+    grid-column-end:8;
+     
+}
+.discover img{
+    position:relative;
+    left: 60px;
+    width: 60px;
+    height: 70px;
+}
+.linkin img{
+    position: absolute;
+    top: -33px;
+    right: 877px;
+
+    
+    width: 500px;
+    height: 300px;
+
+}
+.u{
+    position:relative;
+    left: 420px;
+    font-size:5=40px;
+}
+.jobs img{
+    width: 60px;
+    height: 70px;
+
+}
+.jobs{
+
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+    
+}
+.discover{
+     
+     
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+.people{
+     
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+.learning{
+
+   
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+.welcome{
+    position: relative;
+    right: -320px;
+    font-size:122px;
+    color: brown;
+    font-family:-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Fira Sans', Ubuntu, Oxygen, 'Oxygen Sans', Cantarell, 'Droid Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Lucida Grande', Helvetica, Arial, sans-serif
+}
+.join button{
+    position: relative;
+    left: 94px;
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    font-size:50px;
+    border-color: white;
+    border-radius:70px ;
+}
+.sign button{
+    position:relative;
+    left: -220px;
+    width: 250px;
+    height: 150px;
+    font-size:50px;
+    color: #0a66c2;
+    border-radius: 70px;
+    border-color: #0a66c2;
+
+}
+.main img{
+    width: 1500px;
+    height: 1300px;
+ 
+}
+.email input{
+    border-radius: 13px;
+    width: 547px;
+    height: 55px;
+
+}
+.learning img{
+    position: relative;
+    left:50px;
+    width: 90px;
+    height: 80px;
+
+}
+.people img{
+    width: 190px;
+    height: 80px;
+}
+.i{
+    position: relative;
+    top:200px;
+    left:-400px;
+
+}
+.password input{
+    border-radius: 13px;
+    width: 547px;
+    height: 55px;
+
+}
+.in button{
+    border-radius: 50px;
+    border-color: white;
+    background-color: #0a66c2;
+    width: 600px;
+    height: 95px;
+    font-size:50px;
+     
+
+}
+.google button{
+    border-radius: 50px;
+    font-size:40px;
+    width: 600px;
+    height: 95px;
+
+}
+.now button{
+    border-radius: 50px;
+    font-size:40px;
+    width: 600px;
+    height: 95px;
+
+}
+ .forgot{
+    position: relative;
+    left: -600px;
+    top: 150px;
+ }
